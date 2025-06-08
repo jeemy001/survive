@@ -1,3 +1,5 @@
 body { font-family: sans-serif; margin: 20px; background:#f5f5f5; }
 button { margin: 5px; }
 #text { margin: 20px 0; }
+#stats { margin: 10px 0; }
+#stats span { margin-right: 10px; }

@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Survive - Sign Up</title>
+    <title>Survive - Kayıt</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Survive</h1>
     <div id="auth">
-        <h2>Sign Up / Log In</h2>
-        <input id="name" placeholder="Character Name" />
-        <button onclick="startGame()">Enter</button>
+        <h2>Kayıt Ol / Giriş Yap</h2>
+        <input id="name" placeholder="Karakter Adı" />
+        <div>
+            <label for="gender">Cinsiyet: </label>
+            <select id="gender">
+                <option value="male">Erkek</option>
+                <option value="female">Kadın</option>
+            </select>
+        </div>
+        <div>
+            <label for="lang">Dil: </label>
+            <select id="lang">
+                <option value="tr">Türkçe</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+        <button onclick="startGame()">Başla</button>
     </div>
     <script src="index.js"></script>
 </body>
